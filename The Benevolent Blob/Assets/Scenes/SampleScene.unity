@@ -773,7 +773,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.0041750367, y: 0.7096048, z: -5.1258497}
+  m_LocalPosition: {x: 0.0041750367, y: 0.7096048, z: -7.41}
   m_LocalScale: {x: 0.41741452, y: 0.41741452, z: 0.41741452}
   m_Children: []
   m_Father: {fileID: 766767642}
@@ -1166,6 +1166,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4871064930455547346, guid: fe2c112ac88423540887e99d84b8492e, type: 3}
+      propertyPath: rotateSpeed
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6142275884589746625, guid: fe2c112ac88423540887e99d84b8492e, type: 3}
       propertyPath: m_Name
       value: Coin (1)
