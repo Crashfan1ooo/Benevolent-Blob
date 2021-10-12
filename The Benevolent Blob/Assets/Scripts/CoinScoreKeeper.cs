@@ -20,10 +20,8 @@ public class CoinScoreKeeper : MonoBehaviour
     void Update()
     {
 
-        //Displays the current number of treasures.
-        collectibleText.GetComponent<Text>().text = "Treasure: " + collectibleNumber;
-
-     
+        //Displays the current number of coins.
+        collectibleText.GetComponent<Text>().text = "Coins: " + collectibleNumber;
 
     }
 }
