@@ -686,6 +686,7 @@ GameObject:
   - component: {fileID: 418765239}
   - component: {fileID: 418765238}
   - component: {fileID: 418765237}
+  - component: {fileID: 418765241}
   m_Layer: 0
   m_Name: Lava
   m_TagString: Untagged
@@ -701,7 +702,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 418765236}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -769,6 +770,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &418765241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 418765236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d338a019b77004489e132630f8f06e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Respawn: 1
 --- !u!1001 &438339402
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1522,6 +1536,7 @@ GameObject:
   - component: {fileID: 612067263}
   - component: {fileID: 612067262}
   - component: {fileID: 612067261}
+  - component: {fileID: 612067265}
   m_Layer: 0
   m_Name: Dark Matter (1)
   m_TagString: Untagged
@@ -1537,7 +1552,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 612067260}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -1605,6 +1620,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 55
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &612067265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 612067260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d338a019b77004489e132630f8f06e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Respawn: 1
 --- !u!1001 &613133390
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5358,6 +5386,7 @@ GameObject:
   - component: {fileID: 1913693097}
   - component: {fileID: 1913693096}
   - component: {fileID: 1913693095}
+  - component: {fileID: 1913693099}
   m_Layer: 0
   m_Name: Lava (1)
   m_TagString: Untagged
@@ -5373,7 +5402,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1913693094}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -5441,6 +5470,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1913693099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1913693094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d338a019b77004489e132630f8f06e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Respawn: 1
 --- !u!1001 &1921342903
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5510,6 +5552,7 @@ GameObject:
   - component: {fileID: 1994065737}
   - component: {fileID: 1994065736}
   - component: {fileID: 1994065735}
+  - component: {fileID: 1994065739}
   m_Layer: 0
   m_Name: Dark Matter
   m_TagString: Untagged
@@ -5525,7 +5568,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1994065734}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -5593,6 +5636,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 54
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1994065739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1994065734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d338a019b77004489e132630f8f06e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Respawn: 1
 --- !u!1 &1995296714
 GameObject:
   m_ObjectHideFlags: 0
