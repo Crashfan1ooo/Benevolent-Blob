@@ -263,6 +263,7 @@ GameObject:
   m_Component:
   - component: {fileID: 76470447}
   - component: {fileID: 76470450}
+  - component: {fileID: 76470451}
   - component: {fileID: 76470449}
   - component: {fileID: 76470448}
   m_Layer: 5
@@ -353,6 +354,18 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &76470451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 76470446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bb2a90db56a6bb469110b1fb7cc76b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &163430666
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -684,6 +697,7 @@ GameObject:
   m_Component:
   - component: {fileID: 365896753}
   - component: {fileID: 365896752}
+  - component: {fileID: 365896754}
   m_Layer: 0
   m_Name: UI Hub
   m_TagString: Untagged
@@ -718,6 +732,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &365896754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 365896751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bb2a90db56a6bb469110b1fb7cc76b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &419348140
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4301,11 +4327,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3361902715421782108, guid: 4639fe3be126d984b93193b369dfc32d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -139.6
+      value: 133.5
       objectReference: {fileID: 0}
     - target: {fileID: 3361902715421782108, guid: 4639fe3be126d984b93193b369dfc32d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.417
+      value: 35.9
       objectReference: {fileID: 0}
     - target: {fileID: 3361902715421782108, guid: 4639fe3be126d984b93193b369dfc32d, type: 3}
       propertyPath: m_LocalPosition.z
