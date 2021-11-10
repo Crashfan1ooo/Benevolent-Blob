@@ -14,6 +14,13 @@ public class CharacterScript : MonoBehaviour
 
     [SerializeField] private float doubleJumpMultiplier = 0.5f;
 
+    [SerializeField] public float rotationSpeed;
+
+    private bool alreadyLeft;
+    private bool alreadyRight = true;
+
+    public GameObject BlobBoy;
+
     private float directionY;
 
     private bool canDoubleJump = false;
@@ -57,5 +64,27 @@ public class CharacterScript : MonoBehaviour
         direction.y = directionY;
 
         controller.Move(direction * characterSpeed * Time.deltaTime);
+
+        if(Input.GetKeyDown(KeyCode.A) && alreadyLeft == false)
+        {
+            BlobBoy.transform.Rotate(0, 0, 180);
+            alreadyLeft = true;
+            alreadyRight = false;
+        }
+
+        if (Input.GetKeyDown(KeyCode.D) && alreadyRight == false)
+        {
+            BlobBoy.transform.Rotate(0, 0, 180);
+            alreadyRight = true;
+            alreadyLeft = false;
+        }
+
+
+        /*if (direction != Vector3.zero)
+        {
+            Quaternion toRotation = Quaternion.LookRotation(direction, Vector3.right);
+
+            transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation, rotationSpeed * Time.deltaTime);
+        }*/
     }
 }
