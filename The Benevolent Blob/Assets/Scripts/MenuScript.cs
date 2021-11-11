@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ButtonScript : MonoBehaviour
+public class MenuScript : MonoBehaviour
 {
     public void LoadScene(string sceneName)
     {

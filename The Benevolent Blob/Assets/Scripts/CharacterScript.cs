@@ -16,6 +16,7 @@ public class CharacterScript : MonoBehaviour
 
     [SerializeField] public float rotationSpeed;
 
+
     private bool alreadyLeft;
     private bool alreadyRight = true;
 
