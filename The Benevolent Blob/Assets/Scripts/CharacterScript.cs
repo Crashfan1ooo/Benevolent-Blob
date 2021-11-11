@@ -16,6 +16,10 @@ public class CharacterScript : MonoBehaviour
 
     [SerializeField] public float rotationSpeed;
 
+    [SerializeField] private KeyBindScript keybinds;
+
+
+
 
     private bool alreadyLeft;
     private bool alreadyRight = true;
@@ -30,6 +34,7 @@ public class CharacterScript : MonoBehaviour
     void Start()
     {
         controller = GetComponent<CharacterController>();
+        keybinds = GetComponent<KeyBindScript>();
     }
 
     // Update is called once per frame
