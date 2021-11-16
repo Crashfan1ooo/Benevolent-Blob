@@ -954,6 +954,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Respawn: 2
+  CoinChecker: {fileID: 0}
 --- !u!1001 &438339402
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1918,6 +1919,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Respawn: 2
+  CoinChecker: {fileID: 0}
 --- !u!1001 &613133390
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5825,6 +5827,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Respawn: 2
+  CoinChecker: {fileID: 0}
 --- !u!1001 &1915012128
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6048,6 +6051,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Respawn: 2
+  CoinChecker: {fileID: 0}
 --- !u!1 &1995296714
 GameObject:
   m_ObjectHideFlags: 0

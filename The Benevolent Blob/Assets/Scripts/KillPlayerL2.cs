@@ -6,9 +6,16 @@ using UnityEngine.SceneManagement;
 public class KillPlayerL2 : MonoBehaviour
 {
     public int Respawn;
+
+    //stuff for Coin management
+    public GameObject CoinChecker;
+    private CoinScoreKeeper coinScript;
+
     // Start is called before the first frame update
     void Start()
     {
+        CoinChecker = GameObject.Find("UI Hub");
+        coinScript = CoinChecker.GetComponent<CoinScoreKeeper>();
         
     }
 
@@ -22,6 +29,7 @@ public class KillPlayerL2 : MonoBehaviour
     {
         if(other.CompareTag("Player"))
         {
+            CoinScoreKeeper.collectibleNumber = CoinScoreKeeper.lastCoins;
             SceneManager.LoadScene(Respawn);
         }
     }

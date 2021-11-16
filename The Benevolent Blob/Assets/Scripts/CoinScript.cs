@@ -4,7 +4,14 @@ using UnityEngine;
 
 public class CoinScript : MonoBehaviour
 {
-   
+
+ 
+
+    private void Start()
+    {
+       
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         //Adds a point when collected and destroys the coin
