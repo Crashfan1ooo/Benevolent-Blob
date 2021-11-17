@@ -16,5 +16,15 @@ public class EndingScreen : MonoBehaviour
         {
             SceneManager.LoadScene("Ending1");
         }
+
+        else if (CoinScoreKeeper.collectibleNumber >= 50 && CoinScoreKeeper.collectibleNumber <= 99)
+        {
+            SceneManager.LoadScene("Ending2");
+        }
+
+        else if (CoinScoreKeeper.collectibleNumber >= 100 && CoinScoreKeeper.collectibleNumber <= 149)
+        {
+            SceneManager.LoadScene("Ending3");
+        }
     }
 }
