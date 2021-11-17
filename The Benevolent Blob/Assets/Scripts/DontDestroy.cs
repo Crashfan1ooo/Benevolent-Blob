@@ -23,26 +23,31 @@ public class DontDestroy : MonoBehaviour
         if(SceneManager.GetActiveScene() == SceneManager.GetSceneByName("Ending0"))
         {
             canvasWithCoins.SetActive(false);
+            CoinScoreKeeper.collectibleNumber = 0;
         }
 
         if (SceneManager.GetActiveScene() == SceneManager.GetSceneByName("Ending1"))
         {
             canvasWithCoins.SetActive(false);
+            CoinScoreKeeper.collectibleNumber = 0;
         }
 
         if (SceneManager.GetActiveScene() == SceneManager.GetSceneByName("Ending2"))
         {
             canvasWithCoins.SetActive(false);
+            CoinScoreKeeper.collectibleNumber = 0;
         }
 
         if (SceneManager.GetActiveScene() == SceneManager.GetSceneByName("Ending3"))
         {
             canvasWithCoins.SetActive(false);
+            CoinScoreKeeper.collectibleNumber = 0;
         }
 
         if (SceneManager.GetActiveScene() == SceneManager.GetSceneByName("Ending4"))
         {
             canvasWithCoins.SetActive(false);
+            CoinScoreKeeper.collectibleNumber = 0;
         }
     }
 
