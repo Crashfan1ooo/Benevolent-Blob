@@ -9,10 +9,10 @@ public class EndingScreen : MonoBehaviour
     {
         if(CoinScoreKeeper.collectibleNumber == 0)
         {
-            SceneManager.LoadScene("Title");
+            SceneManager.LoadScene("Ending0");
         }
 
-        else if(CoinScoreKeeper.collectibleNumber >= 25 && CoinScoreKeeper.collectibleNumber <=49)
+        else if(CoinScoreKeeper.collectibleNumber >= 1 && CoinScoreKeeper.collectibleNumber <=49)
         {
             SceneManager.LoadScene("Ending1");
         }
@@ -25,6 +25,11 @@ public class EndingScreen : MonoBehaviour
         else if (CoinScoreKeeper.collectibleNumber >= 100 && CoinScoreKeeper.collectibleNumber <= 149)
         {
             SceneManager.LoadScene("Ending3");
+        }
+
+        else if (CoinScoreKeeper.collectibleNumber == 150)
+        {
+            SceneManager.LoadScene("Ending4");
         }
     }
 }
