@@ -69,6 +69,7 @@ MonoBehaviour:
   gravity: 5
   doubleJumpMultiplier: 1
   rotationSpeed: 0
+  keybinds: {fileID: 0}
   BlobBoy: {fileID: 5254611509769957211}
 --- !u!1 &4912662493184468822
 GameObject:
