@@ -73,14 +73,14 @@ public class CharacterScript : MonoBehaviour
 
         if(Input.GetKeyDown(KeyCode.A) && alreadyLeft == false)
         {
-            BlobBoy.transform.Rotate(0, 0, 180);
+            BlobBoy.transform.Rotate(0, 180, 0);
             alreadyLeft = true;
             alreadyRight = false;
         }
 
         if (Input.GetKeyDown(KeyCode.D) && alreadyRight == false)
         {
-            BlobBoy.transform.Rotate(0, 0, 180);
+            BlobBoy.transform.Rotate(0, 180, 0);
             alreadyRight = true;
             alreadyLeft = false;
         }
