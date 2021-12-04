@@ -11689,6 +11689,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4912662491719910274, guid: b049cfbb616053942bb7ee4227d9da3c, type: 3}
+      propertyPath: BlobBoy
+      value: 
+      objectReference: {fileID: 1638482536}
     - target: {fileID: 4912662491719910275, guid: b049cfbb616053942bb7ee4227d9da3c, type: 3}
       propertyPath: m_RootOrder
       value: 74
@@ -11771,6 +11775,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b049cfbb616053942bb7ee4227d9da3c, type: 3}
+--- !u!1 &1638482536 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8902049197754912293, guid: b049cfbb616053942bb7ee4227d9da3c, type: 3}
+  m_PrefabInstance: {fileID: 1638482535}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1645557579
 PrefabInstance:
   m_ObjectHideFlags: 0
