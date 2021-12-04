@@ -102,6 +102,6 @@ public class CharacterScript : MonoBehaviour
 
     public void CoinCollected()
     {
-        characterAudio.Play();
+        coinAudio.Play();
     }
 }
