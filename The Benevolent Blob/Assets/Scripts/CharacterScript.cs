@@ -21,7 +21,9 @@ public class CharacterScript : MonoBehaviour
     //audio stuff
 
     public AudioSource characterAudio;
+    public AudioSource coinAudio;
     public AudioClip jumpSound;
+    public AudioClip coinSound;
 
     //audio stuff 
 
@@ -41,6 +43,7 @@ public class CharacterScript : MonoBehaviour
         keybinds = GetComponent<KeyBindScript>();
         characterAudio = GetComponent<AudioSource>();
         characterAudio.clip = jumpSound;
+        coinAudio.clip = coinSound;
     }
 
     // Update is called once per frame
@@ -68,6 +71,7 @@ public class CharacterScript : MonoBehaviour
             {
                 directionY = characterJump * doubleJumpMultiplier;
                 canDoubleJump = false;
+                characterAudio.Play();
             }
         }
 
@@ -93,11 +97,11 @@ public class CharacterScript : MonoBehaviour
         }
 
 
-        /*if (direction != Vector3.zero)
-        {
-            Quaternion toRotation = Quaternion.LookRotation(direction, Vector3.right);
+        
+    }
 
-            transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation, rotationSpeed * Time.deltaTime);
-        }*/
+    public void CoinCollected()
+    {
+        characterAudio.Play();
     }
 }
