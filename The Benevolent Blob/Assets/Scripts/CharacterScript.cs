@@ -18,8 +18,12 @@ public class CharacterScript : MonoBehaviour
 
     [SerializeField] private KeyBindScript keybinds;
 
+    //audio stuff
 
+    public AudioSource characterAudio;
+    public AudioClip jumpSound;
 
+    //audio stuff 
 
     private bool alreadyLeft;
     private bool alreadyRight = true;
@@ -35,6 +39,8 @@ public class CharacterScript : MonoBehaviour
     {
         controller = GetComponent<CharacterController>();
         keybinds = GetComponent<KeyBindScript>();
+        characterAudio = GetComponent<AudioSource>();
+        characterAudio.clip = jumpSound;
     }
 
     // Update is called once per frame
@@ -52,6 +58,7 @@ public class CharacterScript : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 directionY = characterJump;
+                characterAudio.Play();
             }
 
         }
