@@ -7,15 +7,18 @@ public class DontDestroy : MonoBehaviour
 {
 
     public GameObject canvasWithCoins;
+    
 
     private void Start()
     {
         canvasWithCoins = GameObject.Find("CanvasCoins");
+        
     }
 
     void Awake()
     {
         DontDestroyOnLoad(this.gameObject);
+        
     }
 
     void Update()
