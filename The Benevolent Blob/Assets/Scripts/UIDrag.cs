@@ -18,8 +18,8 @@ public class UIDrag : MonoBehaviour,IDragHandler
     void Update()
     {
         currentPos = RectTransformUtility.WorldToScreenPoint(new Camera(), transform.position);
-        currentPos.x = Mathf.Clamp(currentPos.x, 0, Screen.width);
-        currentPos.y = Mathf.Clamp(currentPos.y, 0, Screen.height);
+        currentPos.x = Mathf.Clamp(currentPos.x, tr.sizeDelta.x/2f, Screen.width- tr.sizeDelta.x / 2f);
+        currentPos.y = Mathf.Clamp(currentPos.y, tr.sizeDelta.y/2f, Screen.height- tr.sizeDelta.y /2f);
         RectTransformUtility.ScreenPointToWorldPointInRectangle(tr, currentPos, new Camera(), out newPos);
         transform.position = newPos;
     }
