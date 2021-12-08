@@ -82,14 +82,14 @@ public class CharacterScript : MonoBehaviour
 
         controller.Move(direction * characterSpeed * Time.deltaTime);
 
-        if(Input.GetKeyDown(KeyCode.A) && alreadyLeft == false)
+        if(Input.GetKeyDown(KeyCode.A) /*|| Input.GetKeyDown(KeyCode.LeftArrow)*/ && alreadyLeft == false)
         {
             BlobBoy.transform.Rotate(0, 180, 0);
             alreadyLeft = true;
             alreadyRight = false;
         }
 
-        if (Input.GetKeyDown(KeyCode.D) && alreadyRight == false)
+        if (Input.GetKeyDown(KeyCode.D) /*|| Input.GetKeyDown(KeyCode.RightArrow)*/ && alreadyRight == false)
         {
             BlobBoy.transform.Rotate(0, 180, 0);
             alreadyRight = true;
