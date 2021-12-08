@@ -8,4 +8,5 @@ public class DoNotDestroy : MonoBehaviour
     {
         DontDestroyOnLoad(this.gameObject);
     }
+
 }
