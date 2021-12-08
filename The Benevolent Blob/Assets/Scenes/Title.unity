@@ -956,9 +956,9 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_HighlightedColor: {r: 0.9716981, g: 0.3978462, b: 0.3978462, a: 1}
+    m_PressedColor: {r: 0.3773585, g: 0.37166253, b: 0.37166253, a: 1}
+    m_SelectedColor: {r: 0.9725491, g: 0.39607847, b: 0.39607847, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -4292,9 +4292,9 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_HighlightedColor: {r: 1, g: 0.3622641, b: 0.3622641, a: 1}
+    m_PressedColor: {r: 0.3584906, g: 0.32940552, b: 0.32940552, a: 1}
+    m_SelectedColor: {r: 1, g: 0.36078432, b: 0.36078432, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -12250,6 +12250,14 @@ PrefabInstance:
     - target: {fileID: 5476214975968520752, guid: 27156e6d09e46ad4ea1b45cae289d111, type: 3}
       propertyPath: m_Name
       value: Main Camera
+      objectReference: {fileID: 0}
+    - target: {fileID: 5476214975968520764, guid: 27156e6d09e46ad4ea1b45cae289d111, type: 3}
+      propertyPath: m_ShowToolkit
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5476214975968520764, guid: 27156e6d09e46ad4ea1b45cae289d111, type: 3}
+      propertyPath: m_ShowCustomSorter
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5476214975968520765, guid: 27156e6d09e46ad4ea1b45cae289d111, type: 3}
       propertyPath: m_RootOrder
